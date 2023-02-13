@@ -1,0 +1,13 @@
+header {
+    background-color: #FFFFFF;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+nav li {
+    display: inline;
+}
