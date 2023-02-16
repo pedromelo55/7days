@@ -1,13 +1,307 @@
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
 header {
     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
 }
 
 .caixa {
     display: flex;
     align-items: center;
     position: relative;
+    margin-left: 112px;
+}
+
+.caixa img {
+    margin-right: 8px;
+}
+
+.caixa p {
+    color: #3A404E;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500px;
+}
+
+nav {
+    margin-left: 119px
 }
 
 nav li {
     display: inline;
+    margin: 0 0 0 15px;
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.butoes {
+    position: absolute;
+    right: 112px;
+}
+
+.entrar {
+    height: 44px;
+    width: 112px;
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    padding: 10px 18px 10px 10px;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 12px;
+}
+
+.cadastrar {
+    height: 44px;
+    width: 112px;
+    background-color: #8E2424;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px 10px 18px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 96px 0 96px 0;
+}
+
+.cabecalho p {
+    color: #8E2424;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.cabecalho h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.cabecalho h2 {
+    color: #667085;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.metricas {
+    display: flex;
+    gap: 32px;
+    padding: 0 112px 96px 112px;
+}
+
+.metricas div h1{
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 12px;
+}
+
+.metricas div h2 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.metricas div p {
+    color: #667085;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.talentos {
+    padding: 96px 0 64px 0;
+    text-align: center;
+}
+
+.talentos p {
+    color: #8E2424;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline;
+    border: solid 0;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+}
+
+.talentos h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(16, 24, 40, 1);
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.talentos h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(102, 112, 133, 1);
+    margin-bottom: 64px;
+}
+
+.talentos img {
+    width: 1216px;
+    height: 400px;
+    top: 298px;
+    left: 112px;
+}
+
+.secao-vagas {
+    width: 1280px;
+    height: 940px;
+    margin-bottom: 96px;
+}
+
+.container {
+    margin: 0 50% 62px 50%;
+}
+
+.vaga-categoria {
+    display:block;
+    width: 768px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(16, 24, 40, 1);
+}
+
+.vaga {
+    border: solid 1px rgba(234, 236, 240, 1);
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    width: 768px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.vaga-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(16, 24, 40, 1);
+}
+
+.vaga-informacoes {
+    color: rgba(102, 112, 133, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+.secao-depoimentos{
+    border: 0;
+    border-radius: 16px;
+    background-color: rgba(195, 25, 25, 0.03);
+    text-align: center;
+    margin: 96px auto;
+    padding: 64px;
+    width:fit-content;
+}
+
+.depoimento p {
+    color: rgba(142, 36, 36, 1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.depoimento h1 {
+    color: rgba(16, 24, 40, 1);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.depoimento img {
+    margin-bottom: 16px;
+}
+
+.depoimento-nome {
+    color: rgba(16, 24, 40, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.depoimento-carga {
+    color: rgba(102, 112, 133, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(249, 250, 251, 1);
+    padding: 96px 0 96px 0;
+    text-align: center;
+}
+
+footer h1 {
+    color: rgba(16, 24, 40, 1);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+footer h2{
+    color: rgba(102, 112, 133, 1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+footer input {
+    border: solid 1px rgba(208, 213, 221, 1);
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    margin: 0 16px 32px 0;
+    width: 360px;
+}
+
+footer button {
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgba(142, 36, 36, 1);
+    padding: 12px 20px 12px 20px;
+}
+
+footer p {
+    color: rgba(152, 162, 179, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
